@@ -1,2 +1,2 @@
-# SmartRD
+# Smartrd
 Smart repository 
