@@ -1,0 +1,52 @@
+/*contact*/
+.contact-upper{
+    background:url('https://workinp.xyz/projects/enfragy/images/group-bg.jpg');
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    width:100%;
+    height:500px;
+    
+}
+
+.contact{
+    padding: 4rem 0 0 0;
+    width:85%;
+    margin:auto;
+    background-color:#fff;
+    position:absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top:14rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.contact .contact-wrapper{
+    width:100%;
+    margin:0 auto;
+    padding:3rem 2rem;
+    display:flex;
+    
+    
+}
+.contact .contact-wrapper .left, .contact .contact-wrapper .right{
+    padding:3rem;
+    flex-basis:50%;
+}
+
+.contact .contact-wrapper .right{
+    background:#fcfcfc;
+}
+
+    
+.contact .contact-wrapper .left h3{ color:#3272b5; font-size:2.5rem; margin-bottom: 3rem;}
+.contact .contact-wrapper .right h3{ color:#282828; font-size:2.5rem; margin-bottom: 3rem;}
+.contact .contact-wrapper .left label{font-size:1.5rem; }
+.contact .contact-wrapper .left .form-row{width:100%; padding:1rem .5rem; background:#f8f8f8;     border: 1px solid #f2f2f2;    outline: none; margin-bottom:2.5rem;     margin-top: 0.8rem;}
+.contact .contact-wrapper .right h4{color:#3272b5; font-size:2rem; margin-bottom: 2rem;}
+.contact .contact-wrapper .right p{ font-size:1.5rem; line-height:2rem; margin-bottom:2rem;}
+.contact .contact-wrapper .right .address{margin-bottom:3rem;}
+
+.spacer{
+    padding-bottom:63rem;
+}
